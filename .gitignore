@@ -1,124 +1,35 @@
-# Byte-compiled / optimized / DLL files
-__pycache__/
-*.py[cod]
-*$py.class
-
-# C extensions
-*.so
-
-# Distribution / packaging
-.Python
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
-pip-wheel-metadata/
-share/python-wheels/
-*.egg-info/
-.installed.cfg
-*.egg
-MANIFEST
-
-# PyInstaller
-#  Usually these files are written by a python script from a template
-#  before PyInstaller builds the exe, so as to inject date/other infos into it.
-*.manifest
-*.spec
-
-# Installer logs
-pip-log.txt
-pip-delete-this-directory.txt
-
-# Unit test / coverage reports
-htmlcov/
-.tox/
-.nox/
-.coverage
-.coverage.*
-.cache
-nosetests.xml
-coverage.xml
-*.cover
-.hypothesis/
-.pytest_cache/
-
-# Translations
-*.mo
-*.pot
-
-# Django stuff:
-*.log
-local_settings.py
-db.sqlite3
-db.sqlite3-journal
-
-# Flask stuff:
-instance/
-.webassets-cache
-
-# Scrapy stuff:
-.scrapy
-
-# Sphinx documentation
-docs/_build/
-
-# PyBuilder
-target/
-
-# Jupyter Notebook
-.ipynb_checkpoints
-
-# IPython
-profile_default/
-ipython_config.py
-
-# pyenv
-.python-version
-
-# pipenv
-#   According to pypa/pipenv#598, it is recommended to include Pipfile.lock in version control.
-#   However, in case of collaboration, if having platform-specific dependencies or dependencies
-#   having no cross-platform support, pipenv may install dependencies that don't work, or not
-#   install all needed dependencies.
-#Pipfile.lock
-
-# celery beat schedule file
-celerybeat-schedule
-
-# SageMath parsed files
-*.sage.py
-
-# Environments
-.env
-.venv
-env/
-venv/
-ENV/
-env.bak/
-venv.bak/
-
-# Spyder project settings
-.spyderproject
-.spyproject
-
-# Rope project settings
-.ropeproject
-
-# mkdocs documentation
-/site
-
-# mypy
-.mypy_cache/
-.dmypy.json
-dmypy.json
-
-# Pyre type checker
-.pyre/
+X:1
+T:¡Basta ya!
+C:Dedicado a Cuba
+M:4/4
+L:1/4
+Q:1/4=68
+%%score {1 | 2}
+K:Cm
+V:1 treble style=renaissance
+V:2 bass
+% --- INTRO (Piano Solo) ---
+[V:1] !p! !breath! G2 _A G | _E2 D C | =B4- | =B4 !fermata! |
+[V:2] [C,,G,,C,]4 | [A,,_E,A,]4 | [G,,D,G,]4- | [G,,D,G,]4 !fermata! |
+% --- VERSO 1 (Voz Femenina: Intimo) ---
+[V:1] "Cm" z C C D | "Fm" _E2 z2 | "G7" z _E D C | "Cm" =B,2 z2 |
+w: Las pal-mas hoy in-cli-nan la ca-be-za
+[V:2] [C,G,]4 | [F,,C,]4 | [G,,D,]4 | [C,G,]4 |
+[V:1] "Cm" z C C D | "Fm" _E2 z2 | "G7" z D =B, D | "Cm" C4 |
+w: el mar ya no nos cuen-ta sus his-to-rias.
+[V:2] [C,G,]4 | [F,,C,]4 | [G,,D,]4 | [C,G,]4 |
+% --- PRE-CORO (Dúo: Crescendo) ---
+[V:1] !crescendo(! "Ab" _A _A _B2 | "Bb" _B _A G2 | "Eb" G G _A2 | "G7" _A _B =B2 !crescendo)! |
+w: No es o-dio lo que que-ma, es el si-len-cio, la he-ri-da ya no_ a-guan-ta.
+[V:2] [_A,,_E,]4 | [_B,,F,]4 | [_E,,_B,,]4 | [G,,D,]4 |
+% --- ESTRIBILLO (Coro: Épico) ---
+[K:Eb] [V:1] !f! "Eb" _B2 e2 | "Bb" f4 | "Ab" g a _b2 | "Eb" g4 |
+w: ¡Bas-ta ya! Que el llan-to se ha-ga rí-o.
+[V:2] [K:Eb] [E,,B,,]4 | [B,,F,]4 | [A,,E,]4 | [E,,B,,]4 |
+[V:1] "Fm" f a g2 | "Eb" e4 | "Bb7" d f e2 | "Eb" e4 |
+w: ¡Bas-ta ya! Des-pier-ta del va-cí-o...
+[V:2] [F,,C,]4 | [E,,B,,]4 | [B,,F,]4 | [E,,B,,]4 |
+% --- FINAL (Outro) ---
+[K:Cm] [V:1] !pp! "Cm" z C C D | "G7" =B,2 D2 | [K:C] "C" [CEG]4 !fermata! |]
+w: Bas-ta ya... Le-ván-ta-te.
+[V:2] [K:Cm] [C,G,]4 | [G,,D,]4 | [K:C] [C,,G,,C,]4 !fermata! |]
